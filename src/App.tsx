@@ -13,12 +13,14 @@ import {
   Box,
   Progress,
   ScrollArea,
+  Tooltip,
 } from '@mantine/core';
 
 const pages = [
   {
     badge: '1',
     title: '양자는 왜 낯설까?',
+    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
     body: [
       '우리가 평소에 보는 세상은 비교적 분명하다. 공은 책상 위에 있거나 바닥에 있고, 문은 열려 있거나 닫혀 있다. 사람도 교실 안에 있거나 밖에 있다. 이런 일상적인 세계에서는 물체의 위치와 상태를 직접 눈으로 확인할 수 있다.',
       '하지만 양자의 세계는 우리가 직접 보는 세계보다 훨씬 작다. 양자는 원자, 전자, 빛처럼 아주 작은 세계에서 나타나는 성질과 관련이 있다. 이 세계는 너무 작아서 눈으로 볼 수 없고, 손으로 만질 수도 없다. 그래서 우리는 실험 장치와 수학적 설명을 통해서만 양자의 성질을 이해할 수 있다.',
@@ -31,6 +33,7 @@ const pages = [
   {
     badge: '2',
     title: '양자란 무엇일까?',
+    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
     body: [
       '양자란 아주 작은 세계에서 에너지나 물질의 성질이 일정한 단위로 나타나는 것을 설명하는 개념이다. 쉽게 말하면, 자연의 작은 세계에서는 에너지가 아무 값으로나 부드럽게 변하는 것이 아니라 정해진 단위처럼 나타날 때가 있다.',
       '계단을 떠올리면 이해하기 쉽다. 미끄럼틀은 위에서 아래로 부드럽게 내려올 수 있다. 중간 어디쯤에도 있을 수 있다. 하지만 계단은 다르다. 1칸, 2칸, 3칸처럼 정해진 칸을 밟아야 한다. 양자의 세계에서도 에너지가 계단처럼 특정한 값으로 나타나는 경우가 있다.',
@@ -42,7 +45,8 @@ const pages = [
   },
   {
     badge: '3',
-    title: '중첩, 양자의 중요한 성질',
+    title: '중첩',
+    image: 'https://static.wikia.nocookie.net/supernaturalpowers/images/2/2a/%EC%96%91%EC%9E%90_%EC%A4%91%EC%B2%A9%EC%9D%84_%ED%91%9C%ED%98%84%ED%95%9C_%EA%B7%B8%EB%A6%BC.png/revision/latest/scale-to-width-down/360?cb=20210531115812&path-prefix=ko',
     body: [
       '중첩은 양자 세계에서 어떤 상태가 하나로 정해지기 전까지 여러 가능성이 함께 있는 것처럼 설명되는 현상이다. 일상에서는 대부분의 물체가 하나의 상태를 가진다. 전등은 켜져 있거나 꺼져 있고, 동전은 앞면이거나 뒷면이다.',
       '하지만 양자 세계에서는 측정하기 전까지 하나의 결과로 딱 정해졌다고 말하기 어려운 경우가 있다. 예를 들어 동전이 빠르게 돌아가고 있을 때를 생각해 보자. 바닥에 떨어지기 전에는 앞면인지 뒷면인지 확실히 말하기 어렵다. 중첩을 처음 설명할 때는 이런 느낌을 이용할 수 있다.',
@@ -55,6 +59,7 @@ const pages = [
   {
     badge: '4',
     title: '측정',
+    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
     body: [
       '양자 세계에서는 측정이 매우 중요하다. 측정하기 전에는 여러 가능성이 함께 있는 것처럼 설명되지만, 측정하는 순간 하나의 결과가 나타난다. 이 점은 양자역학을 어렵게 만드는 동시에 매우 특별하게 만드는 부분이다.',
       '상자 안에 공이 있다고 생각해 보자. 상자를 열기 전에는 공이 왼쪽에 있는지 오른쪽에 있는지 모른다. 상자를 열면 우리는 공의 위치를 확인할 수 있다. 일상적인 세계에서는 이것이 단순히 “몰랐던 것을 알게 되는 과정”이다.',
@@ -67,6 +72,7 @@ const pages = [
   {
     badge: '5',
     title: '얽힘',
+    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
     body: [
       '얽힘은 두 양자가 서로 떨어져 있어도 하나의 연결된 상태처럼 행동하는 현상이다. 두 입자가 멀리 떨어져 있어도, 한쪽의 상태를 알면 다른 쪽의 상태와 관련된 정보를 알 수 있는 것처럼 나타난다.',
       '처음에는 짝이 맞는 장갑을 생각하면 조금 이해하기 쉽다. 상자 두 개에 왼손 장갑과 오른손 장갑을 하나씩 넣고 멀리 보냈다고 하자. 한 상자를 열었을 때 왼손 장갑이 나오면, 다른 상자에는 오른손 장갑이 있다는 것을 알 수 있다.',
@@ -79,6 +85,7 @@ const pages = [
   {
     badge: '6',
     title: '양자와 현대 과학',
+    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
     body: [
       '양자는 어렵고 낯설지만, 현대 과학기술을 이해하는 데 매우 중요하다. 우리가 직접 양자를 볼 수는 없지만, 양자역학은 이미 많은 기술의 바탕이 되고 있다.',
       '스마트폰과 컴퓨터에 들어가는 반도체는 전자의 움직임을 이해해야 만들 수 있다. 전자는 아주 작은 입자이고, 그 움직임은 양자역학과 깊게 관련되어 있다. 반도체가 발전했기 때문에 오늘날의 컴퓨터와 스마트폰도 가능해졌다.',
@@ -91,6 +98,7 @@ const pages = [
   {
     badge: '7',
     title: '양자컴퓨터란 무엇일까?',
+    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
     body: [
       '양자컴퓨터는 양자의 성질을 계산에 이용하는 새로운 방식의 컴퓨터다. 일반 컴퓨터는 정보를 0 또는 1로 처리한다. 이것을 비트라고 한다. 전등 스위치가 꺼짐 또는 켜짐 중 하나인 것과 비슷하다.',
       '양자컴퓨터는 큐비트라는 단위를 사용한다. 큐비트는 중첩을 이용해 0과 1의 가능성을 함께 다룰 수 있다. 또한 여러 큐비트가 얽힘을 이루면, 기존 컴퓨터와는 다른 방식으로 계산을 진행할 수 있다.',
@@ -103,6 +111,7 @@ const pages = [
   {
     badge: '8',
     title: '양자컴퓨터는 어디에 쓰일까?',
+    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
     body: [
       '양자컴퓨터는 아직 발전 중인 기술이지만, 미래에 여러 분야에서 활용될 가능성이 있다. 특히 경우의 수가 너무 많거나, 아주 작은 자연 현상을 계산해야 하는 문제에서 기대를 받고 있다.',
       '첫 번째 활용 분야는 신약 개발이다. 새로운 약을 만들려면 분자의 구조와 반응을 이해해야 한다. 그런데 분자 자체가 양자의 규칙을 따르기 때문에, 양자컴퓨터가 이런 계산을 더 잘할 수 있을 것으로 기대된다. 이것이 가능해지면 약을 찾는 과정이 더 효율적이 될 수 있다.',
@@ -115,6 +124,7 @@ const pages = [
   {
     badge: '9',
     title: '아직 해결해야 할 점',
+    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
     body: [
       '양자컴퓨터는 가능성이 큰 기술이지만 아직 완성된 기술은 아니다. 양자 상태는 매우 예민해서 주변 환경의 작은 영향만 받아도 쉽게 흐트러질 수 있다.',
       '아주 예민한 악기를 떠올리면 이해하기 쉽다. 바이올린은 줄이 조금만 틀어져도 소리가 이상해진다. 양자컴퓨터도 비슷하게, 큐비트가 안정적으로 유지되지 않으면 계산 결과에 오류가 생길 수 있다.',
@@ -219,7 +229,7 @@ function App() {
                   <Image
                     h="100%"
                     fit="cover"
-                    src="https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png"
+                    src={page.image}
                     alt="Quantum image"
                   />
 
@@ -364,12 +374,14 @@ function App() {
                         완료
                       </Button>
                     ) : (
-                      <Button
-                        onClick={nextPage}
-                        disabled={!canGoNext}
-                      >
-                        다음
-                      </Button>
+                      <Tooltip label="스크롤을 끝까지 내리세요">
+                        <Button
+                          onClick={nextPage}
+                          disabled={!canGoNext}
+                        >
+                          다음
+                        </Button>
+                      </Tooltip>
                     )}
                   </Group>
                 </Stack>
