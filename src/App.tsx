@@ -20,7 +20,7 @@ const pages = [
   {
     badge: '1',
     title: '양자는 왜 낯설까?',
-    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
+    image: 'https://cdn.mos.cms.futurecdn.net/v2/t:0,l:896,cw:2304,ch:2304,q:80,w:2304/R8Bfi2Thwq7cnTabi4J2pE.jpg',
     body: [
       '우리가 평소에 보는 세상은 비교적 분명하다. 공은 책상 위에 있거나 바닥에 있고, 문은 열려 있거나 닫혀 있다. 사람도 교실 안에 있거나 밖에 있다. 이런 일상적인 세계에서는 물체의 위치와 상태를 직접 눈으로 확인할 수 있다.',
       '하지만 양자의 세계는 우리가 직접 보는 세계보다 훨씬 작다. 양자는 원자, 전자, 빛처럼 아주 작은 세계에서 나타나는 성질과 관련이 있다. 이 세계는 너무 작아서 눈으로 볼 수 없고, 손으로 만질 수도 없다. 그래서 우리는 실험 장치와 수학적 설명을 통해서만 양자의 성질을 이해할 수 있다.',
@@ -33,7 +33,7 @@ const pages = [
   {
     badge: '2',
     title: '양자란 무엇일까?',
-    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
+    image: 'https://cdn.mos.cms.futurecdn.net/v2/t:0,l:896,cw:2304,ch:2304,q:80,w:2304/R8Bfi2Thwq7cnTabi4J2pE.jpg',
     body: [
       '양자란 아주 작은 세계에서 에너지나 물질의 성질이 일정한 단위로 나타나는 것을 설명하는 개념이다. 쉽게 말하면, 자연의 작은 세계에서는 에너지가 아무 값으로나 부드럽게 변하는 것이 아니라 정해진 단위처럼 나타날 때가 있다.',
       '계단을 떠올리면 이해하기 쉽다. 미끄럼틀은 위에서 아래로 부드럽게 내려올 수 있다. 중간 어디쯤에도 있을 수 있다. 하지만 계단은 다르다. 1칸, 2칸, 3칸처럼 정해진 칸을 밟아야 한다. 양자의 세계에서도 에너지가 계단처럼 특정한 값으로 나타나는 경우가 있다.',
