@@ -72,7 +72,7 @@ const pages = [
   {
     badge: '5',
     title: '얽힘',
-    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
+    image: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA5MTNfNDIg/MDAxNjk0NTgwODkyNTI0.bfPJMawfMYY5RGAPveENqLvfXTw5vuy6rpGVUp6KFHwg.b-tCdVKuObcIe-Ms7C35YyuJP7J1byaLPDsoUusAnV8g.JPEG.ahjjbb/SE-7675c6d9-582e-4866-9ba1-9978b84f11a5.jpg?type=w800',
     body: [
       '얽힘은 두 양자가 서로 떨어져 있어도 하나의 연결된 상태처럼 행동하는 현상이다. 두 입자가 멀리 떨어져 있어도, 한쪽의 상태를 알면 다른 쪽의 상태와 관련된 정보를 알 수 있는 것처럼 나타난다.',
       '처음에는 짝이 맞는 장갑을 생각하면 조금 이해하기 쉽다. 상자 두 개에 왼손 장갑과 오른손 장갑을 하나씩 넣고 멀리 보냈다고 하자. 한 상자를 열었을 때 왼손 장갑이 나오면, 다른 상자에는 오른손 장갑이 있다는 것을 알 수 있다.',
@@ -98,7 +98,7 @@ const pages = [
   {
     badge: '7',
     title: '양자컴퓨터란 무엇일까?',
-    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
+    image: 'https://i.namu.wiki/i/R-riw7ZpTMLHRgmAJsqMY1CHFi9iJEe2-1TTQvMUSiElh75ZcL9WdpzSJ0sQjFhWDgnebR33AlNBlS6DnPGKjQ.webp',
     body: [
       '양자컴퓨터는 양자의 성질을 계산에 이용하는 새로운 방식의 컴퓨터다. 일반 컴퓨터는 정보를 0 또는 1로 처리한다. 이것을 비트라고 한다. 전등 스위치가 꺼짐 또는 켜짐 중 하나인 것과 비슷하다.',
       '양자컴퓨터는 큐비트라는 단위를 사용한다. 큐비트는 중첩을 이용해 0과 1의 가능성을 함께 다룰 수 있다. 또한 여러 큐비트가 얽힘을 이루면, 기존 컴퓨터와는 다른 방식으로 계산을 진행할 수 있다.',
@@ -111,7 +111,7 @@ const pages = [
   {
     badge: '8',
     title: '양자컴퓨터는 어디에 쓰일까?',
-    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
+    image: 'https://i.namu.wiki/i/R-riw7ZpTMLHRgmAJsqMY1CHFi9iJEe2-1TTQvMUSiElh75ZcL9WdpzSJ0sQjFhWDgnebR33AlNBlS6DnPGKjQ.webp',
     body: [
       '양자컴퓨터는 아직 발전 중인 기술이지만, 미래에 여러 분야에서 활용될 가능성이 있다. 특히 경우의 수가 너무 많거나, 아주 작은 자연 현상을 계산해야 하는 문제에서 기대를 받고 있다.',
       '첫 번째 활용 분야는 신약 개발이다. 새로운 약을 만들려면 분자의 구조와 반응을 이해해야 한다. 그런데 분자 자체가 양자의 규칙을 따르기 때문에, 양자컴퓨터가 이런 계산을 더 잘할 수 있을 것으로 기대된다. 이것이 가능해지면 약을 찾는 과정이 더 효율적이 될 수 있다.',
@@ -124,7 +124,7 @@ const pages = [
   {
     badge: '9',
     title: '아직 해결해야 할 점',
-    image: 'https://news.samsungdisplay.com/wp-content/uploads/2019/01/sdfsdfsdafasdf.png',
+    image: 'https://i.namu.wiki/i/R-riw7ZpTMLHRgmAJsqMY1CHFi9iJEe2-1TTQvMUSiElh75ZcL9WdpzSJ0sQjFhWDgnebR33AlNBlS6DnPGKjQ.webp',
     body: [
       '양자컴퓨터는 가능성이 큰 기술이지만 아직 완성된 기술은 아니다. 양자 상태는 매우 예민해서 주변 환경의 작은 영향만 받아도 쉽게 흐트러질 수 있다.',
       '아주 예민한 악기를 떠올리면 이해하기 쉽다. 바이올린은 줄이 조금만 틀어져도 소리가 이상해진다. 양자컴퓨터도 비슷하게, 큐비트가 안정적으로 유지되지 않으면 계산 결과에 오류가 생길 수 있다.',
